@@ -1,0 +1,12 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #190236;
+  color: white;
+}
+html,body,#root,.App{
+  min-height:100%
+}
+
+/* // background-color: 	rgb(48, 25, 52); */

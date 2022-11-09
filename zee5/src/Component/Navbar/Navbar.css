@@ -1,0 +1,62 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+.headerLeft,.headerCenter {
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+
+    
+   
+
+}
+.headerCenter Button{
+   margin:20px
+}
+
+span{
+    margin: 5px 15px;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: white;
+  
+ 
+
+}
+#login:hover{
+    color :black
+}
+
+
+
+.header__icon {
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.user__avatar {
+    font-size: 2rem;
+}
+
+.Drawer_Header{
+    padding: 5px;
+    padding-left: 15px;
+    background-color: #FFFFFF0F;
+    border-radius: 10px;
+}
+
+/* #search{
+background-color: red;
+width: 400px;
+height: 30px;
+
+} */
