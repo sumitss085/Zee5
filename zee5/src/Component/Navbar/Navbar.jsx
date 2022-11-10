@@ -99,8 +99,8 @@ function Navbar(){
                                 <DrawerBody>
                                 <Accordion defaultIndex={[]} allowMultiple>
                                {
-                                DrawerItem.map((item)=>(
-                                    <AccordionItems title={item}/>
+                                DrawerItem.map((item,index)=>(
+                                    <AccordionItems key={new Date().toDateString()+index} title={item}/>
                                 ))
                                }
                                 </Accordion>
