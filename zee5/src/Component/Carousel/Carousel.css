@@ -1,0 +1,40 @@
+.posterImage{
+    height: 400px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.posterImage > img {
+    margin: auto;
+    width: 80%;
+    height: 350px;
+    padding:0 5px 0 5px;
+    
+}
+.movie_title{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    background: none;
+}
+.movie_title h1 {
+    font-size: 30px;
+    background: none;
+}
+.movie_title b{
+    background: none;
+    
+}
+.watch_btn{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    background: none;
+}
+
+
+
+
+
+
