@@ -45,23 +45,23 @@ function Navbar(){
         
             <div className="headerLeft">
                
-                <Link to="/"><img className="header__icon" src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.52.50" alt="zee5 logo" width='20px'   height='30px'/>
+                <Link to=""><img className="header__icon" src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.52.50" alt="zee5 logo" width='20px'   height='30px'/>
                 </Link>
                 <Breadcrumb separator=' ' >
                 <BreadcrumbItem>
-                <BreadcrumbLink href='#'>  <Link to="/movies/popular" ><span>Home</span></Link></BreadcrumbLink>
+                <BreadcrumbLink href='#'>  <Link to="/" ><span>Home</span></Link></BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbItem>
-                <BreadcrumbLink href='#'> <Link to="/movies/top_rated" ><span>TV Show</span></Link></BreadcrumbLink>
+                <BreadcrumbLink href='#'> <Link to="/tvshow" ><span>TV Show</span></Link></BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbItem >
-                <BreadcrumbLink href='#' ><Link to="/movies/upcoming" ><span>Movies</span></Link></BreadcrumbLink>
+                <BreadcrumbLink href='#' ><Link to="/movie" ><span>Movies</span></Link></BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbItem>
-                <BreadcrumbLink href='#'> <Link  ><span>Web Series</span></Link></BreadcrumbLink>
+                <BreadcrumbLink href='#'> <Link to="/webseries" ><span>Web Series</span></Link></BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbItem>
-                <BreadcrumbLink href='#'> <Link  ><span>News</span></Link></BreadcrumbLink>
+                <BreadcrumbLink href='#'> <Link to="/news" ><span>News</span></Link></BreadcrumbLink>
                 </BreadcrumbItem>
                 </Breadcrumb>
                 

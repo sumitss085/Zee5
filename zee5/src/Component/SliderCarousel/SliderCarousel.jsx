@@ -17,7 +17,7 @@ function SliderCarousel({URL}){
         
    },[])
 
-console.log(Movie)
+
 
 
 
