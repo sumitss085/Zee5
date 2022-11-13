@@ -1,5 +1,6 @@
 import { useState ,useEffect} from "react"
 import CarouselComponent from "../../Component/Carousel/Carousel"
+import Footer from "../../Component/Footer/Footer"
 import ImageGrid from "../../Component/LodingSeleton/GridLoading"
 import Zee5Loader from "../../Component/LodingSeleton/LodingIndicator"
 import LestestMovies from "../../Component/Movies/LestestMovie"
@@ -29,10 +30,7 @@ function Home (){
         
       },[])
 
-      useEffect(()=>{
       
-
-      },[])
 
 
 return <>
@@ -53,6 +51,8 @@ return <>
                                 
                             </div>
                 }
+
+                <Footer/>
 
 </>
  

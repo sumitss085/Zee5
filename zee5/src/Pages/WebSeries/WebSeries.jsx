@@ -1,8 +1,13 @@
 import React from 'react'
+import Login from '../Login/Login'
 
 const WebSeries = () => {
   return (
-    <div>WebSeries</div>
+    <div>
+   
+
+
+    </div>
   )
 }
 

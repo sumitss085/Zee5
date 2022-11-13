@@ -1,0 +1,42 @@
+.main_box{
+    width: 60%;
+    height: auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    background: white ;
+    margin: auto;
+   
+}
+.main_box .main-right-box{
+    width: 50%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    background: white ;
+    padding: 20px 0 20px 0;
+}
+
+.per-heading{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+    background: white ;
+}
+.main-right-box h1{
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+h1,p{
+    background: white ;
+    color: black;
+}
+
+
+.per-heading #right-logo{
+   
+}

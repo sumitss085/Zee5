@@ -5,7 +5,7 @@ import MovieCard from '../MoviesCard/MovieCard';
 import axios from 'axios'
 
 
-function SliderCarousel({URL}){
+function SliderCarousel({URL,title}){
     const[Movie,SetMovies]=useState([])
 
 
@@ -28,20 +28,19 @@ function SliderCarousel({URL}){
        { width:1500,itemsToShow:4},
     ]
     return (
-        <div className="slider_container">
-        <Carousel showStatus={false}  breakPoints={breakpoint} >
-        {
-         Movie.map((movie,index)=>(
-            <MovieCard key={movie.id} movie={movie} />
-         )) 
-        }
-        </Carousel>
-       
-     
-
-        
-        
+        <>
+  <h1 id="title">{title}</h1>
+         <div className="slider_container">
+                <Carousel showStatus={false}  breakPoints={breakpoint} >
+                       {
+                        Movie.map((movie,index)=>(
+                            <MovieCard key={movie.id} movie={movie} />
+                        )) 
+                        }
+                </Carousel>
         </div>
+        </>
+   
     )
 }
 

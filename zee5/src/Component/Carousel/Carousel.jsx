@@ -10,6 +10,8 @@ import UseButton from "../Button/Button";
 
 function CarouselComponent(){
 
+    
+
 
     const [PopularMovies,SetPopularMovies]=useState([])
 

@@ -24,6 +24,10 @@ h1{
     gap: 15px;
 
 }
+.fot_top_left h1,.fot_top_right h1{
+    background: none;
+    color: white;
+}
 .fot_logo{
     border: 2px dotted #214cce;
     padding: 7px;

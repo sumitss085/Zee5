@@ -1,0 +1,88 @@
+.head{
+font-size: 15px;
+margin-bottom: 20px;
+
+}
+.head_bot p{
+  background: none;
+  color: white  ;
+  letter-spacing: 1px;
+}
+
+.head_bot{
+  width: 250px;
+  margin: auto;
+  font-size: 12px;
+  margin-bottom: 30px;
+color: red;
+}
+#signinbtn{
+  margin-bottom: 30px;
+}
+.box{
+ margin-top: 300px;
+}
+
+.box .input-box {
+
+  }
+  
+  .box .input-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #fff;
+    border: 1px solid #A6A6A6;
+    border: none;
+    /* border-bottom-style:  solid ; */
+    border-bottom: 1px solid #A6A6A6;
+    outline: none;
+    letter-spacing: 1px;
+    background: transparent;
+  }
+  
+  .box .input-box label {
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 13px;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .box .input-box input:focus ~ label,
+  .box .input-box input:valid ~ label{
+    top: -25px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+  }
+  #check-label{
+    font-size: 10px;
+    line-height: 1px;
+    margin-left: 10px;
+  }
+  .return_login{
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  .return_login p{
+    background: none;
+    color: white;
+  }
+  #google{
+ 
+    width: 20px;
+    height: 20px;
+
+  }
+
+  #closebtn{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    color: #A6A6A6;;
+  }

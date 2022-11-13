@@ -5,13 +5,21 @@ import App from './App';
 
 import { ChakraProvider } from '@chakra-ui/react'
 import {BrowserRouter} from 'react-router-dom'
+import AuthContextProvider from './Context/AuthContext';
+import RegisterContextProvider, { RegisterContext } from './Context/RegisterContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ChakraProvider>
-    <BrowserRouter>
+    <RegisterContextProvider>
+
+  <AuthContextProvider>
+  <BrowserRouter>
     <App />
     </BrowserRouter>
+  </AuthContextProvider>
+  </RegisterContextProvider>
+    
    
   </ChakraProvider>
 );

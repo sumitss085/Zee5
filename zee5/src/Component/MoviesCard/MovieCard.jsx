@@ -1,12 +1,16 @@
+import { Link } from 'react-router-dom'
 import './MovieCard.css'
 
 function MovieCard({movie}){
-   
+  
 
     return (
         <>
         <div className='Card'>
-            <img src={`https://image.tmdb.org/t/p/original${movie && movie.poster_path}`} alt="pic" />
+            <Link to={`/singlepage/${movie.id}`}>
+            <img src={`https://image.tmdb.org/t/p/original${movie && movie.poster_path}`} alt="Image Not Found" />
+            </Link>
+           
          
         </div>
         </>
